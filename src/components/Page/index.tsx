@@ -12,25 +12,22 @@ const Page: React.FC = () => {
       <ModelsWrapper>
         <div>
           {[
-            {name:'Model 3', description: 'Order online for Touchless Delivery'},
-            {name:'Model S', description: 'Order online for Touchless Delivery'},
-            {name:'Model X', description: 'Order online for Touchless Delivery'},
-            {name:'Model Y', description: 'Order online for Touchless Delivery'},
-            {name:'Model A', description: 'Order online for Touchless Delivery'},
-            {name:'Model B', description: 'Order online for Touchless Delivery'},
-            {name:'Model 9', description: 'Order online for Touchless Delivery'}
+            { name: 'Model 3', description: 'Order online for Touchless Delivery' },
+            { name: 'Model S', description: 'Order online for Touchless Delivery' },
+            { name: 'Model X', description: 'Order online for Touchless Delivery' },
+            { name: 'Model Y', description: 'Order online for Touchless Delivery' },
           ].map(model => (
             <ModelSection
-              key={model.name} 
+              key={model.name}
               className="colored"
               modelName={model.name}
               overlayNode={
-                <DefaultOverlayContent 
+                <DefaultOverlayContent
                   label={model.name}
                   description={model.description}
                 />
               }
-            /> 
+            />
           ))}
         </div>
 
