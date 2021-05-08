@@ -20,6 +20,7 @@
 [//]: # (Add your gifs/images here:)
 <div>
   <img src="public/tesla.gif" alt="demo" height="425">
+  <img src="public/tesla-mobile.gif" alt="demo mobile" height="425">
 </div>
 
 <hr />
